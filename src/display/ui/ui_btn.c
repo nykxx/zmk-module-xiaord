@@ -79,6 +79,9 @@ lv_obj_t *ui_create_btn(lv_obj_t *parent, const char *text,
 	lv_obj_add_event_cb(btn, cb, LV_EVENT_ALL, user_data);
 
 	lv_obj_t *lbl = lv_label_create(btn);
+  
+    extern const lv_font_t custom_icons;
+    lv_obj_set_style_text_font(lbl, &custom_icons, LV_PART_MAIN);
 
 	lv_label_set_text(lbl, text);
 	lv_obj_center(lbl);

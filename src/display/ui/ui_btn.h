@@ -5,6 +5,8 @@
 #define UI_CIRCLE_BTN_DIAMETER  44
 #define UI_CIRCLE_LAYOUT_RADIUS (120 - UI_CIRCLE_BTN_DIAMETER / 2 + 7)
 
+LV_FONT_DECLARE(custom_icons);
+
 /* Fill out[0..11][0..1] with (x, y) offsets for 12 clock positions.
  * Slot 0 = 12 o'clock, clockwise in 30° steps. */
 void ui_circle_12_positions(int16_t (*out)[2], int16_t radius);

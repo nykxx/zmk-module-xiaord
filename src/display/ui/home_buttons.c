@@ -57,17 +57,18 @@ static const struct circle_btn_desc s_circle_btns[12] = {
 
 static const struct circle_btn_desc s_circle_btns[12] = {
 	{ ICON_UPLOAD,     -1,         false, true },
-	{ ICON_IMAGE,      -1,         false, true },
-	{ ICON_VOLUME_MAX, -1,         false, true },
+	{ ICON_CALCULATOR, -1,         false, true },
+	{ ICON_BOLT,     -1,         false, true },
+	{ ICON_VOL_HIGH,      -1,         false, true },
+	{ ICON_VOL_LOW, -1,         false, true },
 	{ ICON_MUTE,       -1,         false, true },
-	{ ICON_VOLUME_MID, -1,         false, true },
-	{ ICON_NEXT,       -1,         false, true },
-	{ ICON_PLAY,       -1,         false, true },
-	{ ICON_PREV,       -1,         false, true },
-	{ ICON_WARNING,    -1,         false, true },
-	{ ICON_USB,        -1,         false, true },
-	{ ICON_BLUETOOTH,  PAGE_BT,    false, true },
+	{ ICON_FOLDER,       -1,         false, true },
+	{ ICON_WRENCH,       -1,         false, true },
+	{ ICON_CAT,    -1,         false, true },
+	{ ICON_APPLE,        -1,         false, true },
+	{ ICON_BT,         PAGE_BT,    false, true },
 	{ ICON_SETTINGS,   PAGE_CLOCK, false, true },
+
 };
 
 #endif /* DT_HAS_COMPAT_STATUS_OKAY(xiaord_home_buttons) */
