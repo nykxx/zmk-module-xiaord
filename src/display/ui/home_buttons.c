@@ -200,7 +200,7 @@ void home_buttons_create(lv_obj_t *parent)
 			continue;
 		}
 		unicode_to_utf8(s_circle_btns[i].symbol_cp, icon_bufs[i]);
-		lv_obj_t *btn = ui_create_circle_btn(parent, icon_bufs[i],
+		lv_obj_t *btn = ui_create_circle_btn_custom(parent, icon_bufs[i],
 						      pos[i][0], pos[i][1],
 						      circle_btn_cb,
 						      (void *)(uintptr_t)i);
